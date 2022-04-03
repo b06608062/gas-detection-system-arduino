@@ -51,8 +51,8 @@ void loop() {
   // 計算 Vout
   sensor_value = 0;
   for(int i = 0; i < 10; i++){
-  sensor_value = sensor_value + analogRead(MQPin); 
-  delay(300);   
+    sensor_value = sensor_value + analogRead(MQPin); 
+    delay(300);   
   }
   sensor_value = sensor_value / 10;
   sensor_volt = (sensor_value * 5 / 1024);
