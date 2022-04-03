@@ -50,7 +50,7 @@ void loop() {
 
   // 計算 Vout
   sensor_value = 0;
-  for(int i = 0; i < 10; i++){
+  for(int i = 0; i < 10; i++) {
     sensor_value = sensor_value + analogRead(MQPin); 
     delay(300);   
   }
@@ -91,7 +91,7 @@ void loop() {
 }
 
 
-void DHT_Sensor(){
+void DHT_Sensor() {
   delay(2000);
   h = dht.readHumidity();
   t = dht.readTemperature();
