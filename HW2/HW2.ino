@@ -60,6 +60,7 @@ void loop() {
   Serial.println(sensor_volt);
 
   // 計算 RS
+  // RS = ((Vin * RL) / Vout) - RL
   RS = ((5.0 * 20.0) / sensor_volt) - 20.0;  // RL = 20.0k歐姆
 
   // 誤差校正
