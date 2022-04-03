@@ -11,5 +11,5 @@
 ![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/截圖%202022-04-03%20下午1.18.25.png)
 
 ## Calculation of RS
-**RS = [(Vin x RL) / Vout] - RL**
+### RS = [(Vin x RL) / Vout] - RL
 ![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/截圖%202022-04-03%20下午2.50.57.png)
