@@ -10,6 +10,3 @@
 
 ## Adjustment
 ![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/截圖%202022-04-03%20下午1.18.25.png)
-![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/1.png)
-![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/2.png)
-![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/3.png)
