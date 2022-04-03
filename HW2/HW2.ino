@@ -12,7 +12,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // MQ2
 #define MQPin A0
-float Vs = 5.0, RS, RO = 22.0;
+float Vs = 5.0, RS, RO = 22.0;  // For air, RS / R0 = 9.8 for MQ2 gas sensor.
 float sensor_value, sensor_volt;   
 float RsR0ratio_33RH_20c, RsR0ratio_85RH_20c, RsR0ratio_65RH_20c;
 float RsR0ratio_33RH_nowc, RsR0ratio_85RH_nowc, RsR0ratio_nowRH_nowc;
