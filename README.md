@@ -13,5 +13,6 @@ Gas sensors are designed to measure the concentration of gases in the environmen
 
 ## Calculation of RS
 ```
-RS = ((Vin * RL) / Vout) - RL
+// RS = ((Vin * RL) / Vout) - RL
+RS = ((5.0 * 20.0) / sensor_volt) - 20.0;
 ```
