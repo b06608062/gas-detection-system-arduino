@@ -12,6 +12,6 @@ Gas sensors are designed to measure the concentration of gases in the environmen
 ![This is an image](https://github.com/b06608062/gas-detection-system-arduino/blob/master/demo_image/截圖%202022-04-03%20下午1.18.25.png)
 
 ## Calculation of RS
-```
+```C++=
 RS = ((5.0 * 20.0) / sensor_volt) - 20.0;  // RS = ((Vin * RL) / Vout) - RL
 ```
